@@ -231,8 +231,8 @@ input, select, textarea {
 
 	h2 {
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 4rem;
-		font-weight: 200;
+		font-size: 2rem;
+		font-weight: 600;
 		letter-spacing: -0.05em;
 		line-height: 1.1;
 		margin: 0 0 1.5rem 0;
@@ -242,7 +242,7 @@ input, select, textarea {
 	h3 {
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 4rem;
-		font-weight: 200;
+		font-weight: 700;
 		letter-spacing: -0.05em;
 		line-height: 1.1;
 		margin: 0 0 1.5rem 0;
@@ -261,8 +261,8 @@ input, select, textarea {
 
 	h5 {
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 4rem;
-		font-weight: 200;
+		font-size: 2rem;
+		font-weight: 600;
 		letter-spacing: -0.05em;
 		line-height: 1.1;
 		margin: 0 0 1.5rem 0;
@@ -271,8 +271,8 @@ input, select, textarea {
 
 	h6 {
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 4rem;
-		font-weight: 200;
+		font-size: 2rem;
+		font-weight: 600;
 		letter-spacing: -0.05em;
 		line-height: 1.1;
 		margin: 0 0 1.5rem 0;

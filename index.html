@@ -46,6 +46,13 @@
 								var gett = document.getElementById("name").value;
 							$( 'h3' ).text(gett);
 							var gett2 = document.getElementById("message4").value;
+							if(gett2=="designer" || gett2=="Designer")
+							{
+								gett2=" ";
+							}
+							else {
+								gett2="Designer";
+							}
 							$( 'h4' ).text(gett2);
 							var gett3 = document.getElementById("email").value;
 							$( 'h5' ).text(gett3);
