@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Everyone is a designer</title>
+		<title>Who is a designer</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<meta name="description" content="" />
@@ -21,29 +21,63 @@
 				<!-- Intro -->
 					<section class="intro">
 						<header>
+						<!--	<style>
+	 							div2{
+		 							background-image: "my_img1", url('https://source.unsplash.com/category/nature/1600x900');
+
+	 							}
+
+ 								</style>-->
 							<h1>Who is</h1>
 							<h1>a designer</h1>
-						<!--	<p>A free responsive site template designed by <a href="https://twitter.com/ajlkn">@ajlkn</a> / <a href="https://html5up.net">HTML5 UP</a></p>  -->
+							<p>Scroll down to the input box</p>
 							<ul class="actions">
 								<li><a href="#first" class="arrow scrolly"><span class="label">Next</span></a></li>
 							</ul>
 						</header>
-						<div class="content">
+
+					<div2 style="padding:100px;" class="content">
+
+
 							<script>
 							function a(){
 
 							//	document.getElementById("message4").value = document.getElementById("email").value;
-								var gett = document.getElementById("email").value;
+								var gett = document.getElementById("name").value;
 							$( 'h3' ).text(gett);
-
-
+							var gett2 = document.getElementById("message4").value;
+							$( 'h4' ).text(gett2);
+							var gett3 = document.getElementById("email").value;
+							$( 'h5' ).text(gett3);
+							var gett4 = document.getElementById("message").value;
+							$( 'h6' ).text(gett4);
+							var gett5 = document.getElementById("message2").value;
+							$( 'h2' ).text(gett5);
 							}
+
 							</script>
+
+
 							<header>
-							<h3></h3>
+
+								<style>
+									.narrowLineHeight {
+											line-height: 1.8;
+											}
+									.wideLineHeight {
+											line-height: 2.8;
+											}
+								</style>
+							<h3 class="narrowLineHeight"></h3>
+							<h4 class="wideLineHeight"></h4>
+							<h5 class="narrowLineHeight"></h5>
+							<h6 class="narrowLineHeight"> </h6>
+							<h2 class="narrowLineHeight"></h2>
 							</header>
 
-						</div>
+
+
+					</div2>
 
 
 					</section>
@@ -451,7 +485,7 @@ print 'Sorted in ' + i + ' iterations.';</code></pre>
 
 								</div>
 								<ul class="actions">
-									<li><input type="button" value="Save" class="button primary" onclick="a(); javascript:window.scrollTo(0,200);" /></li>
+									<li><input type="button" value="Save" class="button primary" onclick="a(); javascript:window.scrollTo(0,150);" /></li>
 								</ul>
 							</form>
 						</div>

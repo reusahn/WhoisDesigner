@@ -33,6 +33,10 @@ body {
 	line-height: 1;
 }
 
+.my_img1 {
+    filter: brightness(100%)
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -208,6 +212,8 @@ input, select, textarea {
 		text-transform: uppercase;
 	}
 
+
+
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
 			text-decoration: none;
@@ -224,25 +230,53 @@ input, select, textarea {
 	}
 
 	h2 {
-		font-size: 1.25rem;
-		font-weight: 800;
-		margin: 0 0 2rem 0;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-size: 4rem;
+		font-weight: 200;
+		letter-spacing: -0.05em;
+		line-height: 1.1;
+		margin: 0 0 1.5rem 0;
+		text-transform: none;
 	}
 
 	h3 {
-		font-size: 0.875rem;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-size: 4rem;
+		font-weight: 200;
+		letter-spacing: -0.05em;
+		line-height: 1.1;
+		margin: 0 0 1.5rem 0;
+		text-transform: none;
 	}
 
 	h4 {
-		font-size: 0.875rem;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-size: 4rem;
+		font-weight: 700;
+		letter-spacing: -0.05em;
+		line-height: 1.1;
+		margin: 0 0 1.5rem 0;
+		text-transform: none;
 	}
 
 	h5 {
-		font-size: 0.75rem;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-size: 4rem;
+		font-weight: 200;
+		letter-spacing: -0.05em;
+		line-height: 1.1;
+		margin: 0 0 1.5rem 0;
+		text-transform: none;
 	}
 
 	h6 {
-		font-size: 0.625rem;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-size: 4rem;
+		font-weight: 200;
+		letter-spacing: -0.05em;
+		line-height: 1.1;
+		margin: 0 0 1.5rem 0;
+		text-transform: none;
 	}
 
 	@media screen and (max-width: 736px) {
