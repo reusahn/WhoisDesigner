@@ -28,9 +28,22 @@
 								<li><a href="#first" class="arrow scrolly"><span class="label">Next</span></a></li>
 							</ul>
 						</header>
-					<!--	<div class="content">
-							<span class="image fill" data-position="center"><img src="images/pic01.jpg" alt="" /></span>
-						</div> -->
+						<div class="content">
+							<script>
+							function a(){
+
+								document.getElementById("message4").value = document.getElementById("email").value;
+								var gett = document.getElementById("email").value;
+
+							}
+							</script>
+							<header>
+							<input type="text2" name="message3" id="message4" />
+							</header>
+							
+						</div>
+
+
 					</section>
 
 				<!--
@@ -404,10 +417,10 @@ print 'Sorted in ' + i + ' iterations.';</code></pre>
 				-->
 					<section>
 						<header>
-							<h2>Get in touch</h2>
+							<h2>Make your own business card</h2>
 						</header>
 						<div class="content">
-							<p><strong>Auctor commodo</strong> interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis.</p>
+							<p><strong>BUSINESS CARD : </strong> Please write down your personal information for the business card. We will design your business card.</p>
 							<form>
 								<div class="fields">
 									<div class="field half">
@@ -416,12 +429,27 @@ print 'Sorted in ' + i + ' iterations.';</code></pre>
 									<div class="field half">
 										<input type="email" name="email" id="email" placeholder="Email" />
 									</div>
-									<div class="field">
-										<textarea name="message" id="message" placeholder="Message" rows="7"></textarea>
+									<div class="field half">
+										<input type="text2" name="message4" id="message4" placeholder="Job" />
+									<!--	<textarea name="message" id="message" placeholder="Message" rows="7"></textarea> -->
 									</div>
+
+									<div class="field half">
+										<input type="text2" name="message" id="message" placeholder="Instagram" />
+									<!--	<textarea name="message" id="message" placeholder="Message" rows="7"></textarea> -->
+									</div>
+									<div class="field half">
+										<input type="text2" name="message2" id="message2" placeholder="Hompage" />
+									<!--	<textarea name="message" id="message" placeholder="Message" rows="7"></textarea> -->
+									</div>
+									<div class="field half">
+										<input type="text2" name="message3" id="message3" placeholder="Phone" />
+									<!--	<textarea name="message" id="message" placeholder="Message" rows="7"></textarea> -->
+									</div>
+
 								</div>
 								<ul class="actions">
-									<li><input type="submit" value="Send Message" class="button primary" /></li>
+									<li><input type="submit" value="Save" class="button primary" onclick="a();" /></li>
 								</ul>
 							</form>
 						</div>
@@ -460,7 +488,7 @@ print 'Sorted in ' + i + ' iterations.';</code></pre>
 
 
 
-					<div class="copyright">&copy; Untitled. All rights reserved. Design: <a href="https://html5up.net">HTML5 UP</a>.</div>
+					<div class="copyright">&copy; Untitled. All rights reserved. Design: Jonghoon Ahn.</div>
 
 			</div>
 
