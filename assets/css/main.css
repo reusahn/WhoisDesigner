@@ -279,6 +279,16 @@ input, select, textarea {
 		text-transform: none;
 	}
 
+	h7 {
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-size: 2rem;
+		font-weight: 600;
+		letter-spacing: -0.05em;
+		line-height: 1.1;
+		margin: 0 0 1.5rem 0;
+		text-transform: none;
+	}
+
 	@media screen and (max-width: 736px) {
 
 		h1 {
